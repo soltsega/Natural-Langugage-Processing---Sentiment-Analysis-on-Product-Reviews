@@ -1,3 +1,20 @@
-instructions/Internship Instructions.pdf
-instructions/Natural Language Processing Tasks.pdf
-instructions/Text_Preprocessing.ipynb
+# Project Specific
+.nlpvenv/
+data/
+visualizations/
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# Original Instructions (Keep if needed)
+# Moved to bin/deleted as per user request
