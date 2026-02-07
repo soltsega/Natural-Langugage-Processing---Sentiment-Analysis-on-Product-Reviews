@@ -12,13 +12,9 @@ __pycache__/
 .coverage
 htmlcov/
 
-# IDEs
 .vscode/
 .idea/
 
 # Original Instructions (Keep if needed)
 # Moved to bin/deleted as per user request
-<<<<<<< HEAD
 
-=======
->>>>>>> fad6ca58946a24279e2391af08030545ec972ad5
