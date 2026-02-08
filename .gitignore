@@ -19,3 +19,4 @@ htmlcov/
 # Moved to bin/deleted as per user request
 
 TODO.md
+src/clean_data.py
