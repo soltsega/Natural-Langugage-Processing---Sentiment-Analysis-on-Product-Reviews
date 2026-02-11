@@ -1,8 +1,22 @@
+"""
+Dataset Diagnostic Utilities for Sentiment Analysis Project.
+
+This module provides functions to inspect and compare the raw datasets
+(Amazon and IMDb) to understand their structure and content quality.
+"""
+
 import pandas as pd
 import re
 import os
 
 def check_amazon():
+    """
+    Load and generate statistics for the Amazon Product Reviews dataset.
+
+    Returns:
+        dict or str: A dictionary containing data statistics if the file exists,
+                     otherwise an error message.
+    """
     path = os.path.join('data', 'amazon_reviews.csv')
     if not os.path.exists(path):
         return "Amazon file not found."
@@ -24,6 +38,13 @@ def check_amazon():
     return stats
 
 def check_imdb():
+    """
+    Load and generate statistics for the IMDb Movie Reviews dataset.
+
+    Returns:
+        dict or str: A dictionary containing data statistics if the file exists,
+                     otherwise an error message.
+    """
     path = os.path.join('data', 'imdb_reviews.csv')
     if not os.path.exists(path):
         return "IMDb file not found."
