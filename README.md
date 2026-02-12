@@ -2,7 +2,7 @@
 
 A comprehensive machine learning project for analyzing sentiment in product reviews using advanced NLP techniques and ensemble methods.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a robust sentiment analysis system that classifies product reviews into three sentiment categories:
 - **Negative** (1-2 stars)
@@ -11,7 +11,7 @@ This project implements a robust sentiment analysis system that classifies produ
 
 The system uses a production-ready pipeline combining TF-IDF vectorization, dimensionality reduction, and Logistic Regression with SMOTE for handling class imbalance.
 
-## 🚀 Features
+## Features
 
 - **Advanced Text Preprocessing**: Custom text cleaning with regex-based normalization
 - **Feature Engineering**: TF-IDF vectorization with n-grams and TruncatedSVD
@@ -20,7 +20,7 @@ The system uses a production-ready pipeline combining TF-IDF vectorization, dime
 - **Comprehensive Evaluation**: Multiple metrics and visualization tools
 - **Modular Architecture**: Clean separation of concerns with reusable components
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── src/
@@ -40,7 +40,7 @@ The system uses a production-ready pipeline combining TF-IDF vectorization, dime
 └── README.md                # This file
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -100,7 +100,7 @@ cleaned_text = cleaner.transform(["This is a GREAT product!!!"])
 # Output: ["this is a great product"]
 ```
 
-## 🧪 Model Architecture
+## Model Architecture
 
 The production pipeline consists of:
 
@@ -111,7 +111,7 @@ The production pipeline consists of:
 5. **Class Balancing**: SMOTE oversampling
 6. **Classification**: Logistic Regression (max_iter=2000)
 
-## 📈 Performance
+## Performance
 
 The model achieves strong performance across multiple metrics:
 - **Accuracy**: ~85-90% (varies by dataset)
@@ -120,7 +120,7 @@ The model achieves strong performance across multiple metrics:
 
 *Detailed performance metrics available in `03_model_evaluation.ipynb`*
 
-## 🔬 Analysis & Insights
+## Analysis & Insights
 
 The project includes comprehensive analysis notebooks:
 
@@ -129,20 +129,20 @@ The project includes comprehensive analysis notebooks:
 - **Evaluation**: Confusion matrices, classification reports, ROC curves
 - **Visualization**: Interactive dashboards and sentiment trends
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## Author
 
 **Solomon Tsega**
 - GitHub: [@soltsega](https://github.com/soltsega)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Scikit-learn for the machine learning framework
 - spaCy for advanced NLP capabilities
