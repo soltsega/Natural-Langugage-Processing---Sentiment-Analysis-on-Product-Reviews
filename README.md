@@ -64,7 +64,7 @@ The system uses a production-ready pipeline combining TF-IDF vectorization, dime
    python -m spacy download en_core_web_sm
    ```
 
-## 📊 Usage
+## Usage
 
 ### Basic Pipeline Usage
 
